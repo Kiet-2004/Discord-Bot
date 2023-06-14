@@ -45,8 +45,7 @@
 
 const { Client, Events, GatewayIntentBits, SlashCommandBuilder } = require('discord.js');
 const fetch = require("node-fetch");
-const Canvas = require('@napi-rs/canvas');
-const jsonData= require('./waifus.json'); 
+require('http').createServer((req, res) => res.end('Bot is alive!')).listen(3000)
 
 
 const client = new Client({
