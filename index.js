@@ -136,13 +136,6 @@ const anime_list = read_file();
 
 client.once(Events.ClientReady, async c => {
 	console.log(`Ready! Logged in as ${c.user.tag}`);
-
-    // image_data = await image_load();
-	// const ping = new SlashCommandBuilder()
-	// 	.setName('ping')
-	// 	.setDescription('Reply with "Pong!"');
-    // anime_list = read_file();
-
 });
 
 
